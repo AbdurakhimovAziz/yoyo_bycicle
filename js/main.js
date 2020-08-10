@@ -20,3 +20,12 @@ $(document).ready(function () {
 
 
 })
+
+$('.slider__body').slick({
+	infinite: true,
+	slidesToShow: 1,
+	slidesToScroll: 1,
+	adaptiveHeight: true,
+	dots: true,
+	arrows: false,
+});
